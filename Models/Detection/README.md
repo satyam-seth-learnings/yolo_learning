@@ -1,0 +1,1 @@
+- [Official Doc Link](https://docs.ultralytics.com/tasks/detect/)
