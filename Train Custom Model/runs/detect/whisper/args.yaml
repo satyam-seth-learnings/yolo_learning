@@ -1,8 +1,8 @@
 task: detect
 mode: train
-model: yolo11n.pt
+model: yolo11s.pt
 data: data.yml
-epochs: 100
+epochs: 50
 time: null
 patience: 100
 batch: 16
@@ -13,7 +13,7 @@ cache: false
 device: cpu
 workers: 8
 project: null
-name: whisper
+name: whisper3
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -102,4 +102,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: runs\detect\whisper
+save_dir: runs\detect\whisper3
