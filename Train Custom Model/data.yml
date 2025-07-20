@@ -1,0 +1,6 @@
+train: ../Prepare Dataset/dataset/train/images
+val: ../Prepare Dataset/dataset/val/images
+test: ../Prepare Dataset/dataset/test/images
+
+nc: 1
+names: ['whisper']
